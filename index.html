@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/Nartii.jpg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Nart Pacarizi | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>NART PACARIZI</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/Nartii.jpg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+
+      />
+    </section>
+   
+    
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>About Me</h2>
+      <p>
+        Hello and welcome to my Portfolio profile! My name is Nart and I have a passion for programming and problem-solving,
+          I have honed my skills through various trainings and academic studies in computer science, I possess a unique combination of skills that set me apart. My experience as a sales agent at Neptun Electronics has allowed me to develop strong interpersonal and communication skills, also skills in sales, product marketing , advertising while my time as an intern at a Llatki Software Company specializing in web development has provided me with technical expertise in programming languages, web technologies and software development. I gained knowledge in different programming skills such as Java, PHP, JavaScript, HTML5, CSS, and MySQL. In my academic projects, I have consistently demonstrated these skills, leading cross-functional teams to successful outcomes, as well as the ability to work effectively in a team environment. I am a motivated and curious learner with a passion for technology and I am committed to staying up to date with the latest advances in the field of computer science. I am always seeking opportunities to expand my knowledge, gain hands-on experience, and contribute to meaningful projects.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/java-ar21.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+       
+          <img
+          src="assets/icons/PHP-logo.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+        src="assets/icons/mysql-svgrepo-com.svg"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/project1.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Cake Recipe</h3>
+         
+          <a href="https://github.com/nartjunior/Cake-Recipe" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/project2.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+            style="width: 300px; height: 475px;"
+          />
+          <h3 class="project-title">Shopping Site</h3>
+         
+          <a href="https://github.com/nartjunior/Shopping-Site" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.facebook.com/nart.paqarizi" target="_blank"
+        ><img
+          src="assets/icons/facebook-fb.gif"
+          alt="Facebook"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/nartjunior/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/nart-pacarizi/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/nartjunior" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        
+        
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
