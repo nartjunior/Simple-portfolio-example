@@ -17,4 +17,4 @@ Discover my top skills, including HTML, CSS, JavaScript, Java, PHP, and MySQL.
 
 ## Projects
 
-Explore some of my recent projects,
+Explore some of my recent projects.
