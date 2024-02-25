@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
-/* Variables */
 :root {
   --font-family: "Roboto", sans-serf;
   --normal-font: 400;
@@ -16,18 +15,15 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
-/* Variables end */
 
 html {
   scroll-behavior: smooth;
 }
 
-/* CSS Resets */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid red; */
 }
 
 ul {
@@ -49,9 +45,7 @@ body {
 
 
 
-/* CSS Resets end */
 
-/* Navbar */
 nav {
   position: sticky;
   top: 0;
@@ -296,18 +290,14 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
-/* Scroll to top button ends */
 
-/* Footer section */
 footer {
   background-color: var(--bg-color);
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
 }
-/* Footer section ends */
 
-/* General (utilities) */
 .icon-card {
   background-color: #fff;
   border-radius: 11px;
@@ -418,3 +408,42 @@ footer {
     max-width: 17.75rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
